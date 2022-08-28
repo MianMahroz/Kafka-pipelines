@@ -1,0 +1,12 @@
+TO execute kafka and zookeeper just follow below steps:
+
+1- install docker on your machine 
+2- execute below command
+docker-compose -f kafka-cluster.yml up -d  
+
+
+
+
+
+note: docker compose file is already in repository
+note: kafka 2 and kafka 3 is commented. Plz uncomment them if you need multiple brokers
